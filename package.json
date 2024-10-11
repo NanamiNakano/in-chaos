@@ -2,17 +2,37 @@
   "name": "in-chaos",
   "type": "module",
   "version": "0.0.1",
+  "packageManager": "pnpm@9.12.1+sha512.e5a7e52a4183a02d5931057f7a0dbff9d5e9ce3161e33fa68ae392125b79282a8a8a470a51dfc8a0ed86221442eb2fb57019b0990ed24fab519bf0e1bc5ccfc4",
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
     "build": "astro check && astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "prepare": "husky"
   },
   "dependencies": {
-    "astro": "^4.16.0",
     "@astrojs/check": "^0.9.4",
-    "typescript": "^5.6.3"
+    "@astrojs/vue": "^4.5.2",
+    "astro": "^4.16.0",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.1",
+    "lucide-vue-next": "^0.452.0",
+    "radix-vue": "^1.9.7",
+    "tailwind-merge": "^2.5.3",
+    "typescript": "^5.6.3",
+    "vue": "^3.5.12"
   },
-  "packageManager": "pnpm@9.9.0+sha512.60c18acd138bff695d339be6ad13f7e936eea6745660d4cc4a776d5247c540d0edee1a563695c183a66eb917ef88f2b4feb1fc25f32a7adcadc7aaf3438e99c1"
+  "devDependencies": {
+    "@antfu/eslint-config": "^3.7.3",
+    "@unocss/reset": "^0.63.4",
+    "eslint": "^9.12.0",
+    "eslint-plugin-astro": "^1.2.4",
+    "husky": "^9.1.6",
+    "unocss": "^0.63.4",
+    "unocss-preset-animations": "^1.1.0",
+    "unocss-preset-shadcn": "^0.3.1"
+  }
 }
