@@ -23,7 +23,8 @@
     "radix-vue": "^1.9.7",
     "tailwind-merge": "^2.5.3",
     "typescript": "^5.6.3",
-    "vue": "^3.5.12"
+    "vue": "^3.5.12",
+    "vue3-simple-icons": "^13.2.0"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^3.7.3",

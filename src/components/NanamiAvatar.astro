@@ -1,0 +1,8 @@
+---
+import { Image } from "astro:assets"
+import Avatar from "../images/avatar.jpeg"
+
+const { size } = Astro.props
+---
+
+<Image src={Avatar} alt="Nanami's avatar" class={`rounded-full w-${size} h-${size}`} />

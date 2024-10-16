@@ -5053,6 +5053,7 @@
         "npm:unocss-preset-animations@^1.1.0",
         "npm:unocss-preset-shadcn@~0.3.1",
         "npm:unocss@~0.63.4",
+        "npm:vue3-simple-icons@^13.2.0",
         "npm:vue@^3.5.12"
       ]
     }
