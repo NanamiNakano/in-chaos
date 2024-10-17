@@ -5047,6 +5047,7 @@
         "npm:@astrojs/check@~0.9.4",
         "npm:@astrojs/vue@^4.5.2",
         "npm:@unocss/reset@~0.63.4",
+        "npm:astro-seo@~0.8.4",
         "npm:astro@^4.16.0",
         "npm:class-variance-authority@0.7",
         "npm:clsx@^2.1.1",
