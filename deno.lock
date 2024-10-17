@@ -13,6 +13,7 @@
     "npm:husky@^9.1.6": "9.1.6",
     "npm:lucide-vue-next@0.452": "0.452.0_vue@3.5.12__typescript@5.6.3_typescript@5.6.3",
     "npm:radix-vue@^1.9.7": "1.9.7_vue@3.5.12__typescript@5.6.3_typescript@5.6.3",
+    "npm:simple-icons-astro@^13.14.0": "13.14.0_astro@4.16.2__@babel+core@7.25.8__typescript@5.6.3__vite@5.4.8__zod@3.23.8_typescript@5.6.3",
     "npm:tailwind-merge@^2.5.3": "2.5.3",
     "npm:typescript@^5.6.3": "5.6.3",
     "npm:unocss-preset-animations@^1.1.0": "1.1.0_@unocss+preset-wind@0.63.4_unocss@0.63.4",
@@ -4252,6 +4253,12 @@
     "signal-exit@4.1.0": {
       "integrity": "sha512-bzyZ1e88w9O1iNJbKnOlvYTrWPDl46O1bG0D3XInv+9tkPrxrN8jUUTiFlDkkmKWgn1M6CfIA13SuGqOa9Korw=="
     },
+    "simple-icons-astro@13.14.0_astro@4.16.2__@babel+core@7.25.8__typescript@5.6.3__vite@5.4.8__zod@3.23.8_typescript@5.6.3": {
+      "integrity": "sha512-doL5uYYPwxgm7pRsdL26FHOasEEZLaBljrxdudFViiV5lZsVv9LbMpJABXnfVcbnMBx5o3BinWJoXKaRuv9OrQ==",
+      "dependencies": [
+        "astro"
+      ]
+    },
     "simple-swizzle@0.2.2": {
       "integrity": "sha512-JA//kQgZtbuY83m+xT+tXJkmJncGMTFT+C+g2h2R9uxkYIrE2yy9sgmcLhCnw57/WSD+Eh3J97FPEDFnbXnDUg==",
       "dependencies": [
@@ -5048,12 +5055,12 @@
         "npm:husky@^9.1.6",
         "npm:lucide-vue-next@0.452",
         "npm:radix-vue@^1.9.7",
+        "npm:simple-icons-astro@^13.14.0",
         "npm:tailwind-merge@^2.5.3",
         "npm:typescript@^5.6.3",
         "npm:unocss-preset-animations@^1.1.0",
         "npm:unocss-preset-shadcn@~0.3.1",
         "npm:unocss@~0.63.4",
-        "npm:vue3-simple-icons@^13.2.0",
         "npm:vue@^3.5.12"
       ]
     }
