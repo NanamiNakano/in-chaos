@@ -1,0 +1,9 @@
+$transition-property-color: color, background-color, border-color, text-decoration-color, fill, stroke;
+
+body {
+  * {
+    transition-property: $transition-property-color;
+    transition-timing-function: linear;
+    transition-duration: 0.15s;
+  }
+}

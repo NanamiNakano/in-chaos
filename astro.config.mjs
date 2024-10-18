@@ -7,4 +7,13 @@ export default defineConfig({
   integrations: [UnoCSS({
     injectReset: true,
   }), vue()],
+  vite: {
+    css: {
+      preprocessorOptions: {
+        scss: {
+          api: "modern",
+        },
+      },
+    },
+  },
 })

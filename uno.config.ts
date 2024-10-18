@@ -8,8 +8,7 @@ export default defineConfig({
     presetUno(),
     presetAnimations(),
     presetShadcn({
-      // With default setting for SolidUI, you need to set the darkSelector option.
-      darkSelector: "[data-kb-theme=\"dark\"]",
+      color: "rose",
     }),
   ],
   // By default, `.ts` and `.js` files are NOT extracted.

@@ -9,5 +9,8 @@ export default antfu(
       quotes: "double",
       indent: 2,
     },
+    formatters: {
+      css: true,
+    },
   },
 )
