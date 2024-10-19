@@ -3,9 +3,5 @@ body {
     @apply transition-colors;
   }
 
-  & {
-    @apply bg-white dark:bg-black;
-    background-size: 16px 16px;
-    background-image: radial-gradient(circle, hsl(var(--border)) 1px, transparent 1px);
-  }
+  @apply transition-colors;
 }
