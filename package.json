@@ -5,13 +5,14 @@
   "packageManager": "pnpm@9.12.1+sha512.e5a7e52a4183a02d5931057f7a0dbff9d5e9ce3161e33fa68ae392125b79282a8a8a470a51dfc8a0ed86221442eb2fb57019b0990ed24fab519bf0e1bc5ccfc4",
   "scripts": {
     "dev": "astro dev",
+    "dev:host": "astro dev --host",
     "start": "astro dev",
     "build": "astro check && astro build",
     "preview": "astro preview",
     "astro": "astro",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
-    "prepare": "husky"
+    "bar": "echo \"bar\" && exit 0"
   },
   "dependencies": {
     "@astrojs/check": "^0.9.4",
@@ -35,7 +36,6 @@
     "eslint": "^9.12.0",
     "eslint-plugin-astro": "^1.2.4",
     "eslint-plugin-format": "^0.1.2",
-    "husky": "^9.1.6",
     "sass": "^1.80.2",
     "unocss": "^0.63.4",
     "unocss-preset-animations": "^1.1.0",
