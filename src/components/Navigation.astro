@@ -1,0 +1,13 @@
+---
+import { ArrowRight } from "lucide-vue-next"
+import "../styles/unerline.scss"
+
+const { title, link } = Astro.props
+---
+
+<div class="flex items-center gap-4">
+  <ArrowRight />
+  <a href={link} class="underline-text">
+    {title}
+  </a>
+</div>

@@ -1,0 +1,35 @@
+.underline-text {
+  color: inherit;
+  text-decoration: none;
+  background-image: linear-gradient(hsl(0 0% 0%), hsl(0, 0%, 0%)), linear-gradient(hsl(0 0% 100%), hsl(0, 0%, 100%)),
+    linear-gradient(to right, hsl(346, 78%, 81%), hsl(343, 66%, 65%));
+  background-size:
+    100% 0.1em,
+    0 0.1em,
+    0 0.1em;
+  background-position:
+    100% 100%,
+    0 100%,
+    0 100%;
+  background-repeat: no-repeat;
+  transition: background-size 0.15s;
+
+  .dark & {
+    background-size:
+      0 0.1em,
+      100% 0.1em,
+      0 0.1em;
+    background-position:
+      0 100%,
+      100% 100%,
+      0 100%;
+  }
+
+  &:hover,
+  &:focus {
+    background-size:
+      0 0.1em,
+      0 0.1em,
+      100% 0.1em;
+  }
+}
