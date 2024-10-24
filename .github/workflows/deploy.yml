@@ -28,5 +28,5 @@ jobs:
         uses: denoland/deployctl@v1
         with:
           project: in-chaos
-          entrypoint: server/entry.mjs
+          entrypoint: jsr:@std/http/file-server
           root: dist
