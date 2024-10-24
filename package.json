@@ -11,8 +11,7 @@
     "preview": "astro preview",
     "astro": "astro",
     "lint": "eslint .",
-    "lint:fix": "eslint . --fix",
-    "bar": "echo \"bar\" && exit 0"
+    "lint:fix": "eslint . --fix"
   },
   "dependencies": {
     "@astrojs/check": "^0.9.4",
