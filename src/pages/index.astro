@@ -3,6 +3,7 @@ import NanamiAvatar from "../components/NanamiAvatar.astro"
 import SocialProfileLink from "../components/SocialProfileLink.astro"
 import ThemeToggle from "../components/ThemeToggle.astro"
 import DefaultLayout from "../layouts/DefaultLayout.astro"
+import Navigation from "../components/Navigation.astro"
 ---
 
 <DefaultLayout>
@@ -19,6 +20,7 @@ import DefaultLayout from "../layouts/DefaultLayout.astro"
         <p class="text-lg text-black dark:text-white">
           A few word about you.
         </p>
+        <Navigation title="Archives" link="/archives" />
       </div>
     </div>
     <div class="fixed bottom-8 right-8">
