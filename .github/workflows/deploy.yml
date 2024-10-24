@@ -1,7 +1,5 @@
 name: Deploy
 on: [push]
-env:
-  DENO_DIR: deno-cache
 
 jobs:
   deploy:
@@ -23,8 +21,11 @@ jobs:
       - name: Cache Deno dependencies
         uses: actions/cache@v2
         with:
-          path: ${{ env.DENO_DIR }}
-          key: ${{ hashFiles('deno.lock') }}
+          path: |
+            **/node_modules
+          key: ${{ runner.os }}-deno-${{ hashFiles('deno.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-deno-
 
       - name: Install dependencies
         run: deno i --allow-scripts
