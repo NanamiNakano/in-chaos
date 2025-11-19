@@ -17,7 +17,7 @@
     "@astrojs/check": "^0.9.4",
     "@astrojs/mdx": "4.3.0",
     "@astrojs/vue": "5.1.0",
-    "astro": "5.8.1",
+    "astro": "5.15.9",
     "astro-seo": "^0.8.4",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
